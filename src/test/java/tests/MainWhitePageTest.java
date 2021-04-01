@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -11,6 +12,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
 @Tag("web")
+@Feature("White Page Test")
 public class MainWhitePageTest extends TestBase {
 
     @Test
@@ -45,6 +47,6 @@ public class MainWhitePageTest extends TestBase {
                 $("#header").shouldHave(text("Ru")).click());
 
         step("Verify successful switched", () ->
-        $("#header-white-1 h1").shouldHave(text("A PLATFORM FOR THE DEVELOPMENT AND DISTRIBUTION OF OPEN-ECONOMY GAMES")));
+                $("#header-white-1 h1").shouldHave(text("A PLATFORM FOR THE DEVELOPMENT AND DISTRIBUTION OF OPEN-ECONOMY GAMES")));
     }
 }

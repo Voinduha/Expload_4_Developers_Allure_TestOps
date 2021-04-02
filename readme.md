@@ -1,7 +1,7 @@
 # Tests for expload.com website
 ## UI tests:
 - Main page tests
-- Page should Be Opened From DirectPage
+- Page should Be Opened From Direct Page
 - Console Log Should Not Have any Errors
 - Header should have Text "SDK COMPONENTS"
 - Page should change language EN/RU

@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.AllureId;
 import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -38,6 +39,20 @@ public class DocumentationPageTest extends TestBase {
 
         step("Overview main page should be opened ", () ->
                 $("h1").shouldHave(text("Overview")).click());
+    }
+
+    @Test
+    @AllureId("2167")
+    @DisplayName("Page should not be opened from direct page")
+    void shouldNotBeOpenedFromDirectPage() {
+        step("Open main page", () ->
+                open(""));
+
+        step("Documentation page should not be opened", () ->
+                $(byText("Overview")).click());
+
+        step("Overview main page should not be opened ", () ->
+                $("h1").shouldHave(text("Documentation")).click());
     }
 
     @Test

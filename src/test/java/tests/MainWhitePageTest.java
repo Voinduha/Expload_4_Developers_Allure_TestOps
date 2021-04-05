@@ -18,7 +18,7 @@ import static io.qameta.allure.Allure.step;
 public class MainWhitePageTest extends TestBase {
 
     @Test
-    @DisplayName("Header should have Text \"SDK COMPONENTS\"")
+    @DisplayName("Header should have text \"SDK COMPONENTS\"")
     void mainHomePage() {
 
         open("");

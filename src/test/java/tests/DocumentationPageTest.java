@@ -28,7 +28,7 @@ public class DocumentationPageTest extends TestBase {
     }
 
     @Test
-    @DisplayName("Page should Be Opened From DirectPage")
+    @DisplayName("Page should be opened from direct page")
     void shouldBeOpenedFromDirectPage() {
         step("Open main page", () ->
                 open(""));
@@ -41,7 +41,7 @@ public class DocumentationPageTest extends TestBase {
     }
 
     @Test
-    @DisplayName("ConsoleLog Should Not Have any Errors")
+    @DisplayName("ConsoleLog should not have any errors")
     void consoleLogShouldNotHaveErrors() {
         open("/documentation");
         String consoleLogs = getConsoleLogs();

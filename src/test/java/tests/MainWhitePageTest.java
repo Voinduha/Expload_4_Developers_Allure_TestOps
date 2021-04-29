@@ -22,7 +22,7 @@ public class MainWhitePageTest extends TestBase {
     void mainHomePage() {
 
         open("");
-        $("#home-1").shouldHave(text("SDK COMPONENTS"));
+        $("#home-1").shouldHave(text("SDK ДЛЯ БЫСТРОЙ РАЗРАБОТКИ"));
 
     }
 
@@ -46,9 +46,9 @@ public class MainWhitePageTest extends TestBase {
                 open(""));
 
         step("Change language on the page", () ->
-                $("#header").shouldHave(text("Ru")).click());
+                $("#header").shouldHave(text("En")).click());
 
         step("Verify successful switched", () ->
-                $("#header-white-1 h1").shouldHave(text("A PLATFORM FOR THE DEVELOPMENT AND DISTRIBUTION OF OPEN-ECONOMY GAMES")));
+                $("#header-white-1 h1").shouldHave(text("ПЛАТФОРМА ДЛЯ РАЗРАБОТКИ И ДИСТРИБУЦИИ ИГР С ОТКРЫТОЙ ЭКОНОМИКОЙ")));
     }
 }

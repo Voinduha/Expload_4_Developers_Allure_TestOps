@@ -1,4 +1,4 @@
-# Автотесты для expload.com 
+# E2E Tests for expload.com website
 ## UI tests:
 - Main page tests
 - Page should Be Opened From Direct Page

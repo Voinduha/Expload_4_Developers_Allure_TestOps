@@ -31,7 +31,7 @@ public class DocumentationPageTest extends TestBase {
     @Test
     @DisplayName("Page should be opened from direct page")
     void shouldBeOpenedFromDirectPage() {
-        step("Open main page", () ->
+        step("  ", () ->
                 open(""));
 
         step("Documentation page should be opened", () ->
@@ -58,8 +58,11 @@ public class DocumentationPageTest extends TestBase {
     @Test
     @DisplayName("ConsoleLog should not have any errors")
     void consoleLogShouldNotHaveErrors() {
-        open("/documentation");
-        String consoleLogs = getConsoleLogs();
-        assertThat(consoleLogs, not(containsString("SEVERE")));
+        step("Open documentation page", () -> open("/documentation"));
+
+        step("Page should not have any errors (SEVERE) in console", () -> {
+            String consoleLogs = getConsoleLogs();
+            assertThat(consoleLogs, not(containsString("SEVERE")));
+        });
     }
 }

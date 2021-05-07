@@ -22,7 +22,7 @@ public class MainWhitePageTest extends TestBase {
     void mainHomePage() {
 
         open("");
-        $("#home-1").shouldHave(text("SDK ДЛЯ БЫСТРОЙ РАЗРАБОТКИ"));
+        $("#home-1").shouldHave(text("SDK COMPONENTS"));
 
     }
 

@@ -16,12 +16,12 @@
 
 ## UI tests:
 
-- :mango: Main page tests 
-- :banana: Page should Be Opened From Direct Page 
-- :orange: Console Log Should Not Have any Errors 
-- :strawberry: Header should have Text "SDK COMPONENTS" 
-- :watermelon: Page should change language EN/RU 
-- :grapes: Download readme file from GitHub and search for the desired text in it 
+- [X] :mango: Main page tests 
+- [X] :banana: Page should Be Opened From Direct Page 
+- [X] :orange: Console Log Should Not Have any Errors 
+- [X] :strawberry: Header should have Text "SDK COMPONENTS" 
+- [X] :watermelon: Page should change language EN/RU 
+- [X] :grapes: Download readme file from GitHub and search for the desired text in it 
 
 
 ## Screenshots

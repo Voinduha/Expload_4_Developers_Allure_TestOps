@@ -7,7 +7,6 @@
 [<img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/selenium.png" alt="selenium" width="100" height="100"/>](https://www.selenium.dev/)
 [<img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/gradle.png" alt="gradle" width="100" height="100"/>](https://gradle.org/)
 [<img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/allure.png" alt="allure" width="100" height="100"/>](https://docs.qameta.io/allure/)
-<img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/slack.png" alt="slack" width="100" height="100"/>
 <img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/telegram.png" alt="telegram" width="100" height="100"/>
 
 ### Infrastructure:

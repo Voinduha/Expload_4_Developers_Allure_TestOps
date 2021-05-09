@@ -19,7 +19,7 @@
 - :banana: Page should Be Opened From Direct Page 
 - :orange: Console Log Should Not Have any Errors 
 - :strawberry: Header should have Text "SDK COMPONENTS" 
-- :watermelon: Page should change language EN/RU :watermelon:
+- :watermelon: Page should change language EN/RU 
 - :grapes: Download readme file from GitHub and search for the desired text in it 
 
 

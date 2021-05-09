@@ -15,12 +15,12 @@
 [<img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/selenoid.png" alt="selenoid" width="100" height="100"/>](https://aerokube.com/selenoid/latest/)
 
 ## UI tests:
-- Main page tests
-- Page should Be Opened From Direct Page
-- Console Log Should Not Have any Errors
-- Header should have Text "SDK COMPONENTS"
-- Page should change language EN/RU
-- Download readme file from GitHub and search for the desired text in it
+- Main page tests :mango:
+- Page should Be Opened From Direct Page :banana:
+- Console Log Should Not Have any Errors :orange:
+- Header should have Text "SDK COMPONENTS" :strawberry:
+- Page should change language EN/RU :watermelon:
+- Download readme file from GitHub and search for the desired text in it :grapes:
 
 
 ## Screenshots

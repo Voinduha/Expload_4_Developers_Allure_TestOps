@@ -26,7 +26,7 @@
 
 ## Screenshots
 #### *Jenkins - it is an open source automation server:*
-![selenoid_screenshot](src/test/resources/images/Allure7Tests.png)
+![selenoid_screenshot](src/test/resources/images/Jenkins_plus.png)
 
 
 #### *Allure Report - it is a flexible lightweight test report tool:*

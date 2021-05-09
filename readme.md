@@ -1,4 +1,4 @@
-# E2E Automation project (WEB): https://expload.com/
+# E2E Automation project (WEB): https://expload.com/ :ghost:
 
 ## Technology Stack
 [<img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/java.png" alt="java_8" width="100" height="100"/>](https://www.oracle.com/ru/java/technologies/javase-jre8-downloads.html)

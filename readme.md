@@ -1,12 +1,4 @@
 # E2E Automation project (WEB): https://expload.com/
-    
-## UI tests:
-- Main page tests
-- Page should Be Opened From Direct Page
-- Console Log Should Not Have any Errors
-- Header should have Text "SDK COMPONENTS"
-- Page should change language EN/RU
-- Download readme file from GitHub and search for the desired text in it
 
 ## Technology Stack
 [<img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/java.png" alt="java_8" width="100" height="100"/>](https://www.oracle.com/ru/java/technologies/javase-jre8-downloads.html)
@@ -17,6 +9,20 @@
 [<img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/allure.png" alt="allure" width="100" height="100"/>](https://docs.qameta.io/allure/)
 <img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/slack.png" alt="slack" width="100" height="100"/>
 <img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/telegram.png" alt="telegram" width="100" height="100"/>
+
+### Infrastructure:
+
+[<img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/jenkins.png" alt="jenkins" width="100" height="100"/>](https://www.jenkins.io/)
+[<img src="https://github.com/SmileySpb/AutomationProject/blob/main/github/selenoid.png" alt="selenoid" width="100" height="100"/>](https://aerokube.com/selenoid/latest/)
+
+## UI tests:
+- Main page tests
+- Page should Be Opened From Direct Page
+- Console Log Should Not Have any Errors
+- Header should have Text "SDK COMPONENTS"
+- Page should change language EN/RU
+- Download readme file from GitHub and search for the desired text in it
+
 
 ## Screenshots
 #### *Jenkins - it is an open source automation server:*

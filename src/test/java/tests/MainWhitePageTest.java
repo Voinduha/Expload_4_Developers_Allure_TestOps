@@ -25,16 +25,13 @@ public class MainWhitePageTest extends TestBase {
     @Test
     @DisplayName("Header should have text \"SDK COMPONENTS\"")
     void mainHomePage() {
-
         open("");
         $("#home-1").shouldHave(text("SDK COMPONENTS"));
-
     }
 
     @Test
     @DisplayName("Page blocks should be loaded")
     void blocksLoadedTest() {
-
         open("");
         $("#header-white-1").shouldBe(visible);
         $("#home-1").shouldBe(visible);

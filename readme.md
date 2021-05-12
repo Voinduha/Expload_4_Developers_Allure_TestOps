@@ -31,7 +31,7 @@
 #### *Video:*
 ![video](src/test/resources/images/TestVideo.gif)
 
-#### *Allure Report - it is a flexible lightweight test report tool:*
+#### *allure Report - it is a flexible lightweight test report tool:*
 ![selenoid_screenshot](src/test/resources/images/allure_with_steps.png)
 
 
@@ -45,7 +45,7 @@
 ![selenoid_screenshot](src/test/resources/images/Telegram.png)
 
 
-#### *Allure TestOps - it is a TMS that allows to manage all test related stuff in one place:*
+#### *allure TestOps - it is a TMS that allows to manage all test related stuff in one place:*
 ![selenoid_screenshot](src/test/resources/images/AllureTestOps_With_TestCases.png)
 ![selenoid_screenshot](src/test/resources/images/AllureTestOps_Graph.png)
 

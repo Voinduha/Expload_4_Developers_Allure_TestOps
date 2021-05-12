@@ -1,7 +1,7 @@
 package tests;
 
-import Allure.JiraIssue;
-import Allure.JiraIssues;
+import allure.JiraIssue;
+import allure.JiraIssues;
 import io.qameta.allure.AllureId;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;

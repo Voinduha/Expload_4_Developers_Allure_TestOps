@@ -1,5 +1,7 @@
 package tests;
 
+import Allure.JiraIssue;
+import Allure.JiraIssues;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
@@ -15,6 +17,7 @@ import static io.qameta.allure.Allure.step;
 
 @Owner("DanVu")
 @Tag("web")
+@JiraIssues({@JiraIssue("QC3-35")})
 @Feature("White Page Test")
 @Story("Some story")
 public class MainWhitePageTest extends TestBase {

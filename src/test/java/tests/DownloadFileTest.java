@@ -1,5 +1,7 @@
 package tests;
 
+import Allure.JiraIssue;
+import Allure.JiraIssues;
 import com.codeborne.selenide.Configuration;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
@@ -18,6 +20,7 @@ import static utils.Files.readTextFromFile;
 
 @Owner("DanVu")
 @Tag("web")
+@JiraIssues({@JiraIssue("QC3-35")})
 @Feature("Downloading")
 public class DownloadFileTest {
 

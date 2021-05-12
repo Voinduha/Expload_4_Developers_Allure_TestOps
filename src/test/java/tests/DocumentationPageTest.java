@@ -1,5 +1,7 @@
 package tests;
 
+import Allure.JiraIssue;
+import Allure.JiraIssues;
 import io.qameta.allure.AllureId;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
@@ -20,6 +22,7 @@ import static org.hamcrest.core.IsNot.not;
 
 @Owner("DanVu")
 @Tag("web")
+@JiraIssues({@JiraIssue("QC3-35")})
 @Feature("Documentation")
 public class DocumentationPageTest extends TestBase {
     @Test

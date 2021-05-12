@@ -28,10 +28,10 @@
 #### *Jenkins - it is an open source automation server:*
 ![selenoid_screenshot](src/test/resources/images/Jenkins_plus.png)
 
-#### *Video:*
+#### *Test Video:*
 ![video](src/test/resources/images/TestVideo.gif)
 
-#### *allure Report - it is a flexible lightweight test report tool:*
+#### *Allure Report - it is a flexible lightweight test report tool:*
 ![selenoid_screenshot](src/test/resources/images/allure_with_steps.png)
 
 
@@ -45,7 +45,7 @@
 ![selenoid_screenshot](src/test/resources/images/Telegram.png)
 
 
-#### *allure TestOps - it is a TMS that allows to manage all test related stuff in one place:*
+#### *Allure TestOps - it is a TMS that allows to manage all test related stuff in one place:*
 ![selenoid_screenshot](src/test/resources/images/AllureTestOps_With_TestCases.png)
 ![selenoid_screenshot](src/test/resources/images/AllureTestOps_Graph.png)
 

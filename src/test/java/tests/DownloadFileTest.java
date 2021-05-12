@@ -31,8 +31,7 @@ public class DownloadFileTest {
 
         open("https://github.com/expload/pravda/blob/master/README.md");
         File downloadedFile = $("#raw-url").download();
-        String fileContent;
-        fileContent = readTextFromFile(downloadedFile);
+        String fileContent = readTextFromFile(downloadedFile);
         assertThat(fileContent, containsString("Pravda is a general purpose blockchain with PoA consensus"));
     }
 }

@@ -28,7 +28,6 @@ public class DocumentationPageTest extends TestBase {
     @Test
     @DisplayName("Enter Documentation Page")
     void mainDocPage() {
-
         open("");
 
         $("#header-white-1").shouldHave(text("Getting started")).click();
@@ -37,7 +36,7 @@ public class DocumentationPageTest extends TestBase {
     @Test
     @DisplayName("Page should be opened from direct page")
     void shouldBeOpenedFromDirectPage() {
-        step("  ", () ->
+        step("Open main page", () ->
                 open(""));
 
         step("Documentation page should be opened", () ->

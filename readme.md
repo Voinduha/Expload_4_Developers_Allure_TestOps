@@ -45,6 +45,7 @@
 
 #### *Allure TestOps - it is a TMS that allows to manage all test related stuff in one place:*
 ![selenoid_screenshot](src/test/resources/images/AllureTestOps_With_TestCases.png)
+![selenoid_screenshot](src/test/resources/images/AllureTestOps_Graph.png)
 
 #### *Jira integration:*
 ![selenoid_screenshot](src/test/resources/images/Jira.png)

@@ -22,7 +22,7 @@ import static org.hamcrest.core.IsNot.not;
 
 @Owner("DanVu")
 @Tag("web")
-//@JiraIssues({@JiraIssue("QC3-35")})
+@JiraIssues({@JiraIssue("QC3-35")})
 @Feature("Documentation")
 public class DocumentationPageTest extends TestBase {
     @Test

@@ -20,7 +20,7 @@ import static utils.Files.readTextFromFile;
 
 @Owner("DanVu")
 @Tag("web")
-//@JiraIssues({@JiraIssue("QC3-35")})
+@JiraIssues({@JiraIssue("QC3-35")})
 @Feature("Downloading")
 public class DownloadFileTest {
 

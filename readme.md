@@ -46,6 +46,9 @@
 #### *Allure TestOps - it is a TMS that allows to manage all test related stuff in one place:*
 ![selenoid_screenshot](src/test/resources/images/AllureTestOps_With_TestCases.png)
 
+#### *Jira integration:*
+![selenoid_screenshot](src/test/resources/images/Jira.png)
+
 ### Contacts:
 
 [![Telegram](https://img.shields.io/badge/-Telegram-0b0a1a?style=for-the-badge&logo=telegram&logoColor=27A0D9)](https://t.me/Voinduha)

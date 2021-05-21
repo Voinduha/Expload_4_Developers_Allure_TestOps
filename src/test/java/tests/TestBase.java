@@ -15,9 +15,9 @@ public class TestBase {
 
     @BeforeAll
     public static void beforeAll() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--lang=ru");
-        Configuration.browserCapabilities = options;
+        //ChromeOptions options = new ChromeOptions();
+        //options.addArguments("--lang=ru");
+        //Configuration.browserCapabilities = options;
 
         configureDriver();
 

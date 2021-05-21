@@ -4,8 +4,12 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import config.ConfigHelper;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static com.codeborne.selenide.logevents.SelenideLogger.addListener;
@@ -22,6 +26,12 @@ public class DriverHelper {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
+            ChromeOptions chromeOptions = new ChromeOptions();
+            Map<String, Object> prefs = new HashMap<>();
+            prefs.put("intl.accept_languages", "ru");
+            chromeOptions.setExperimentalOption("prefs", prefs);
+            capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+
             Configuration.browserCapabilities = capabilities;
             Configuration.remote = ConfigHelper.getWebRemoteDriver();
         }

@@ -40,7 +40,7 @@ public class DocumentationPageTest extends TestBase {
                 open(""));
 
         step("Documentation page should be opened", () ->
-                $(byText("Documentation")).click());
+                $(byText("Документация")).click());
 
         step("Overview main page should be opened ", () ->
                 $("h1").shouldHave(text("Overview")).click());

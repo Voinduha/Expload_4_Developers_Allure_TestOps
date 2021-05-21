@@ -26,7 +26,7 @@ public class MainWhitePageTest extends TestBase {
     @DisplayName("Header should have text \"SDK COMPONENTS\"")
     void mainHomePage() {
         open("");
-        $("#home-1").shouldHave(text("SDK COMPONENTS"));
+        $("#home-1").shouldHave(text("SDK ДЛЯ БЫСТРОЙ РАЗРАБОТКИ"));
     }
 
     @Test
@@ -51,7 +51,7 @@ public class MainWhitePageTest extends TestBase {
                 $("#header").shouldHave(text("En")).click());
 
         step("Verify successful switched", () ->
-                $("#header-white-1 h1").shouldHave(text("A PLATFORM FOR THE DEVELOPMENT AND " +
-                        "DISTRIBUTION OF OPEN-ECONOMY GAMES")));
+                $("#header-white-1 h1").shouldHave(text("ПЛАТФОРМА ДЛЯ РАЗРАБОТКИ" +
+                        " И ДИСТРИБУЦИИ ИГР С ОТКРЫТОЙ ЭКОНОМИКОЙ")));
     }
 }

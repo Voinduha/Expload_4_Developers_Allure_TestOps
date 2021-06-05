@@ -23,7 +23,9 @@
     <img src="https://starchenkov.pro/qa-guru/img/skills/Github.svg" width="40" height="40"  alt="Github"/>
 </a>
 
+
 ### Infrastructure:
+
 
 <a href="https://www.jetbrains.com/idea/">
     <img src="https://starchenkov.pro/qa-guru/img/skills/Jenkins.svg" width="40" height="40"  alt="Jenkins"/>

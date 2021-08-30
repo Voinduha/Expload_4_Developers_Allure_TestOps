@@ -42,7 +42,7 @@
 - [X] :orange: Console Log Should Not Have any Errors 
 - [X] :strawberry: Header should have Text "SDK COMPONENTS" 
 - [X] :watermelon: Page should change language EN/RU 
-- [X] :grapes: Download readme file from GitHub and search for the desired text in it 
+- [X] :grapes: Download read.me file from GitHub and search for the desired text in it 
 
 
 ## Screenshots
